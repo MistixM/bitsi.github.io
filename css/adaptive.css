@@ -1,0 +1,448 @@
+@media screen and (max-width: 1160px) {
+    html {
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 675px;
+    }
+    .card_title_text {
+        font-size: 17px;
+    }
+    .header_desc {
+        font-size: 21px;
+    }
+    .card {
+        backdrop-filter: blur(0);
+        padding: 0;
+    }
+    .header_cards {
+        column-gap: 24px;
+    }
+
+
+    .plans_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 9px;
+    }
+    .plans_title {
+        text-align: center;
+    }
+    .card-subblock-left {
+        width: 332px;
+        bottom: 0;
+        right: 17%;
+    }
+    .plan-card-right-top {
+        flex-direction: unset;
+    }
+
+    .stats_block {
+        padding: 100px 0;
+    }
+    .stats_first_cards {
+        flex-direction: column-reverse;
+    }
+    .stats_title {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .second_cards_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stats_second_cards {
+        flex-direction: column;
+    }
+    .stats_benefits {
+        margin-top: 100px;
+    }
+    .benefits_informs {
+        flex-direction: column-reverse;
+        row-gap: 48px;
+        column-gap: 0px;
+    }
+    .benefits_title {
+        text-align: center;
+    }
+    .benefit_content_image {
+        content: url('../img/benefit_content_mob.png');
+    }
+    .card-subblock-left {
+        right: -9px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-top: 34px;
+    }
+    .footer_el_left,
+    .footer_el_right {
+        display: none;
+    }
+
+    .footer_logo {
+        margin: 0 auto;
+    }
+    .footer_nav_links {
+        display: grid;
+        grid-template-columns: none;
+        row-gap: 16px;
+        column-gap: 10px;
+        margin: 0 auto;
+        margin-top: 55px;
+        font-size: 21px;
+    }
+    .footer_content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .footer_social_links {
+        padding: 0;
+    }
+    .footer_information {
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .location_title {
+        text-align: center;
+        font-size: 18px;
+    }
+    .location_info_desc {
+        width: 166px;
+    }
+    .location_info {
+        margin-top: 15px;
+    }
+    .location_info_desc, .location_call a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    html {
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 328px;
+    }
+    .header {
+        padding: 25px 0 0 0;
+    }
+    .header_bg {
+        transform: scaleX(-1);
+    }
+    .header_info {
+        margin-top: 300px;
+    }
+    .header_title {
+        width: 328px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .header_desc {
+        width: 328px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .card {
+        backdrop-filter: none;
+    }
+    .card + .card {
+        margin-top: 13px;
+    }
+    .header_cards {        
+        flex-direction: column;
+        align-items: center;
+        column-gap: 13px;
+        margin-top: 41px;
+    }
+
+    /* Solution block */
+    .right {
+        z-index: -3;
+        transform: rotate(45deg);
+        right: -7%;
+        top: 23%;
+    }
+    .left {
+        display: none;
+    }
+    .solution_block {
+        padding-top: 90px;
+        padding-bottom: 58px;
+    }
+    .solution_title {
+        line-height: 32px;
+        text-align: center;
+    }
+    .solution_cards {
+        margin-top: 64px;
+    }
+    .upper_cards {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .lower_cards {
+        flex-direction: column;
+    }
+    .upper_cards > :nth-child(1) {
+        margin-right: 0;
+    }
+
+    /* Engagement Plans */
+    .plans_block {
+        padding-top: 50px;
+        padding-bottom: 52px;
+    }
+    .plans_title {
+        text-align: center;
+    }
+    .plans_cards {
+        margin-top: 57px;
+
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 9px;
+    }
+    .card-subblock-left {
+
+        width: 182px;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    .plan-card-right-top {
+        height: 337px;
+        flex-direction: row;
+    }
+    .card-subblock-top-right {
+        padding: 5px 16px;
+
+        width: 168px;
+    }
+    .card-left {
+        margin-left: 168px;
+        content: url('../img/plans_card_img_mob.png');
+    }
+    .card-top-right {
+        content: url('../img/plans_card_img_mob_1.png');
+    }
+    .card-bottom-right {
+        content: url('../img/plans_card_img_mob_2.png');
+    }
+
+    .plan_info_subblock_title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .plan_info_subblock_desc {
+        line-height: 17px;
+    }
+    .plan-card-right-bottom {
+        height: 337px;
+        flex-direction: row-reverse;
+    }
+    /* Stats Block */
+    .stats_block {
+        padding: 67px 0;
+    }
+    .bottom_right,
+    .top_left {
+        display: none;
+    }
+    .bottom_left {
+        transform: scaleX(-1.5);
+        right: -25%;
+    }
+    .stats_first_cards {
+        flex-direction: column-reverse;
+    }
+    .stats_title {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 19px;
+        line-height: 24px;
+
+    }
+    .second_cards_block {
+        display: block;
+    }
+    .inner_card_third {
+        margin-top: 20px;
+    }
+
+    .stats_second_cards {
+        margin-top: 20px;
+        justify-content: space-between;
+        column-gap: 11px;
+    }
+
+    .inner_card_title {
+        width: 158px;
+        padding: 5px;
+        font-size: 13.81px;
+        line-height: 18px;
+    }
+    .inner_title_third {
+        padding: 20px;
+        width: 330px;
+    }
+
+    .stats_benefits {
+        margin-top: 123px;
+    }
+    .benefits_informs {
+        flex-direction: column-reverse;
+        row-gap: 48px;
+        column-gap: 0px;
+    }
+    .benefits_title {
+        text-align: center;
+    }
+    .benefit_content_image {
+        content: url('../img/benefit_content_mob.png');
+    }
+
+    /* Form */
+    .contact_form_block {
+        padding: 50px 0;
+    }
+    .form_subtitle {
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .form_title {
+        margin-top: 56px;
+    }
+    .full_name,
+    .email,
+    .phone_number,
+    .country {
+        width: 140px;
+    }
+    .phone_number_second,
+    .message {
+        width: 328px;
+    }
+    .input_message,
+    .second_phone_number {
+        width: 328px;
+    }
+    .send_message_button {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-top: 34px;
+    }
+    .footer_el_left,
+    .footer_el_right {
+        display: none;
+    }
+
+    .footer_logo {
+        margin: 0 auto;
+    }
+    .footer_nav_links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 16px;
+        column-gap: 10px;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .footer_content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .footer_social_links {
+        padding: 0;
+    }
+    .footer_information {
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .location_title {
+        text-align: center;
+    }
+    .location_info_desc {
+        width: 166px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Header */
+    .container {
+        max-width: 300px;
+    }
+    .logo {
+        height: 28px;
+    }
+    .call_button {
+        width: 130px;
+    }
+    .call_button a {
+        font-size: 10px;
+    }
+    .navigation {
+        align-items: center;
+    }
+    .header_title {
+        font-size: 28px;
+    }
+    .header_desc  {
+        font-size: 12px;
+    }
+    
+    /* Engagement plans */
+    .card-left {
+        margin-left: 140px;
+    }
+    .card-subblock-left {
+        width: 157px;
+    }
+    .card-subblock-left {
+        padding: 15px;
+    }
+    .plan_info_subblock_desc {
+        line-height: 16px;
+    }
+    .plan_info_subblock_desc {
+        font-size: 11px;
+    }
+
+    .inner_title_third  {
+        width: 300px;
+    }
+    .inner_card_title {
+        font-size: 11.81px;
+        width: 302px;
+    }
+    .crypto_element {
+        margin-left: 110px;
+    }
+    .stats_second_cards {
+        flex-direction: column;
+    }
+    .stats_inner_card:nth-child(2) {
+        margin-top: 20px;
+    }
+    
+    /* Form */
+    .form {
+        grid-column-gap: 10px;
+    }
+    .phone_number_second,
+    .message {
+        width: 293px;
+    }
+    .form_input_element {
+        width: 140px;
+    }
+}
